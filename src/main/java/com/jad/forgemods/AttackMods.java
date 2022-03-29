@@ -1,5 +1,5 @@
 package com.jad.forgemods;
-// test
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
