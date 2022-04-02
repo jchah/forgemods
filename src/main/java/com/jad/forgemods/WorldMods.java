@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 public class WorldMods {
     Minecraft mc = Minecraft.getMinecraft();
     @SubscribeEvent
-    public void waterWalk(TickEvent.PlayerTickEvent tick) {
+    public void waterWalk(TickEvent.PlayerTickEvent event) {
         if (mc.player != null) {
             BlockPos posBelow = mc.player.getPosition().down();
             IBlockState blockStateBelow = mc.world.getBlockState(posBelow);
@@ -22,9 +22,9 @@ public class WorldMods {
         }
     }
     @SubscribeEvent
-    public void higherJump(LivingEvent.LivingJumpEvent jump) {
+    public void higherJump(LivingEvent.LivingJumpEvent event) {
         if (mc.player != null) {
-            if (jump.getEntity() instanceof EntityPlayerMP) {
+            if (event.getEntity() instanceof EntityPlayerMP) {
                 mc.player.motionY *= 2;
             }
         }
