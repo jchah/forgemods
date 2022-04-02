@@ -1,2 +1,2 @@
-# forge-mods
-My attempts at making changes to Minecraft
+## forgemods
+My attempts at making small change's to the game Minecraft
