@@ -1,4 +1,4 @@
-## mc-mods
+## forgemods
 Minecraft 1.12.1
 ## setup
 - clone
