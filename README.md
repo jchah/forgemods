@@ -1,6 +1,4 @@
 ## forgemods
-Minecraft 1.12.1
+For Minecraft 1.12.1
 ## setup
-- clone
-- build
-- runClient
+Gradle > Tasks > forgegradle > runClient
